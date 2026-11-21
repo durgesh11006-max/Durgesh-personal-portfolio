@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Durgesh Yadav - B.Tech Computer Science student and aspiring software developer.">
+    <title>Durgesh Yadav | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Durgesh<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="intro">HELLO, I'M</p>
+
+                <h1>Durgesh <span>Yadav</span></h1>
+
+                <h2>I'm an Aspiring Software Developer</h2>
+
+                <p class="hero-description">
+                    A passionate Computer Science student who loves
+                    learning programming, building websites and
+                    creating innovative technology solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn">
+                        Contact Me
+                    </a>
+
+                    <a href="#about" class="btn secondary-btn">
+                        About Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <span>DY</span>
+                </div>
+                <p>Future Software Developer</p>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p>GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm Durgesh Yadav</h3>
+
+                    <p>
+                        I am a B.Tech Computer Science and Engineering
+                        student at Shri Ram Institute of Technology,
+                        Jabalpur.
+                    </p>
+
+                    <p>
+                        I am interested in software development,
+                        web technologies and problem solving.
+                        I enjoy learning new technologies and
+                        developing practical projects.
+                    </p>
+
+                    <p>
+                        My goal is to become a skilled software
+                        developer and contribute to meaningful
+                        technology projects.
+                    </p>
+                </div>
+
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h4>Name</h4>
+                        <p>Durgesh Yadav</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h4>Education</h4>
+                        <p>B.Tech - CSE</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h4>College</h4>
+                        <p>Shri Ram Institute of Technology</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h4>Location</h4>
+                        <p>Jabalpur, Madhya Pradesh</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section skills-section">
+            <div class="section-heading">
+                <p>WHAT I KNOW</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <div class="skill-icon">C</div>
+                    <h3>C Programming</h3>
+                    <p>Programming Fundamentals</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">C++</div>
+                    <h3>C++</h3>
+                    <p>Object Oriented Programming</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Web Page Structure</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Web Page Styling</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive Websites</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>MySQL</h3>
+                    <p>Database Management</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Programming Basics</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Node.js</h3>
+                    <p>Backend Development</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section contact-section">
+            <div class="section-heading">
+                <p>LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-content">
+                <p>
+                    Have a project idea or want to connect?
+                    Feel free to send me a message.
+                </p>
+
+                <form id="contact-form">
+
+                    <input type="text"
+                           id="name"
+                           placeholder="Your Name"
+                           required>
+
+                    <input type="email"
+                           id="email"
+                           placeholder="Your Email"
+                           required>
+
+                    <textarea id="message"
+                              placeholder="Your Message"
+                              rows="5"
+                              required></textarea>
+
+                    <button type="submit" class="btn primary-btn">
+                        Send Message
+                    </button>
+
+                </form>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">LinkedIn</a>
+
+                    <a href="https://github.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            © <span id="year"></span> Durgesh Yadav.
+            All Rights Reserved.
+        </p>
+        <p>Designed with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
